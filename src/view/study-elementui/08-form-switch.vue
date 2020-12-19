@@ -1,12 +1,16 @@
 <template>
   <el-row :gutter="5">
-  <goBack></goBack>
     <el-col :span="6" :offset="0">
+      <goBack></goBack>
       <h3>开关</h3>
       <h4>基本用法<br><small>表示两种相互对立的状态间的切换，多用于触发「开/关」。</small></h4><h5>
       绑定v-model到一个Boolean类型的变量。可以使用active-color属性与inactive-color属性来设置开关的背景色。</h5>
       <div>
-        <el-switch v-model="value" active-color="#13ce66" inactive-color="#ff4949"></el-switch>
+        <el-switch
+          v-model="value"
+          active-color="#13ce66"
+          inactive-color="#ff4949">
+        </el-switch>
       </div>
       <h4>文字描述<br><small>使用active-text属性与inactive-text属性来设置开关的文字描述。</small></h4>
       <div>
@@ -100,6 +104,7 @@
 </template>
 
 <script>
+
   import goBack from "../../components/goBack";
 
   export default {
@@ -127,15 +132,15 @@
             },
             label: this.$createElement('strong', '50%')
           }
-        },
-        components: {
-          goBack
-        },
-        methods: {
-          formatTooltip(val) {
-            return val / 100
-          }
         }
+      }
+    },
+    components: {
+      goBack
+    },
+    methods: {
+      formatTooltip(val) {
+        return val / 100;
       }
     }
   }
