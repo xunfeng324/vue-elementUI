@@ -53,8 +53,8 @@
       <el-header style="text-align: right; font-size: 12px">
         <el-dropdown><i class="el-icon-setting" style="margin-right: 15px"></i>
           <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item><a href="index">查看</a></el-dropdown-item>
-            <el-dropdown-item>新增</el-dropdown-item>
+            <el-dropdown-item><a href="index">主页</a></el-dropdown-item>
+            <el-dropdown-item><a href="login">登录</a></el-dropdown-item>
             <el-dropdown-item>删除</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>

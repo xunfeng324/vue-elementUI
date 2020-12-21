@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-row type="flex" justify="center">
-      <el-col :span="6">
+      <el-col :span="4">
         <div>
           <el-button type="primary" icon="el-icon-edit" size="mini"></el-button>
           <el-button type="primary" icon="el-icon-share" size="small"></el-button>
@@ -19,7 +19,7 @@
       </el-col>
     </el-row>
     <el-row>
-      <el-col :span="6">
+      <el-col :span="4">
         <div><h2>表单</h2>
           <div><el-link href="layout" type="primary">Layout 布局</el-link></div>
           <div><el-link href="container" type="primary">Container 布局容器</el-link></div>
@@ -38,7 +38,7 @@
           <div><el-link href="form" type="primary">Form 表单</el-link></div>
         </div>
       </el-col>
-      <el-col :span="6">
+      <el-col :span="4">
         <div><h2>Data</h2>
           <div><el-link href="table" type="success">Table 表格</el-link> </div>
           <div><el-link href="table1" type="success">Table 表格功能</el-link> </div>
@@ -50,10 +50,21 @@
           <div><el-link href="avatar" type="success">Avatar 头像</el-link></div>
         </div>
       </el-col>
-      <el-col :span="6">
+      <el-col :span="4">
         <h2>Alert</h2>
         <div><el-link href="alert" type="danger">Alert 警告</el-link></div>
-
+        <div><el-link href="loading" type="danger">Loading 加载</el-link></div>
+        <div><el-link href="message" type="danger">Message 消息提示</el-link></div>
+        <div><el-link href="messageBox" type="danger">MessageBox 弹框</el-link></div>
+        <div><el-link href="notification" type="danger">Notification 通知</el-link></div>
+        <div><el-link href="navMenu" type="danger">NavMenu 导航菜单</el-link></div>
+      </el-col>
+      <el-col :span="4">
+        <h2>Navigation</h2>
+        <div><el-link href="navMenu" type="warning">NavMenu 导航菜单</el-link></div>
+        <div><el-link href="tabs" type="warning">Tabs 标签页</el-link></div>
+        <div><el-link href="breadcrumb" type="warning">Breadcrumb 面包屑</el-link></div>
+        <div><el-link href="pageHeader" type="warning">PageHeader 页头</el-link></div>
       </el-col>
     </el-row>
   </div>
