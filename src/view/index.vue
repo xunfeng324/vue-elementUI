@@ -65,8 +65,27 @@
         <div><el-link href="tabs" type="warning">Tabs 标签页</el-link></div>
         <div><el-link href="breadcrumb" type="warning">Breadcrumb 面包屑</el-link></div>
         <div><el-link href="pageHeader" type="warning">PageHeader 页头</el-link></div>
+        <div><el-link href="dropdown" type="warning">Dropdown 下拉菜单</el-link></div>
+        <div><el-link href="steps" type="warning">Steps 步骤条</el-link></div>
+      </el-col><el-col :span="4">
+        <h2>ohter</h2>
+        <div><el-link href="dialog" type="info">Dialog 对话框</el-link></div>
+        <div><el-link href="tooltip" type="info">Tooltip 文字提示</el-link></div>
+        <div><el-link href="popover" type="info">Popover 弹出框</el-link></div>
+        <div><el-link href="popconfirm" type="info">Popconfirm 气泡确认框</el-link></div>
+        <div><el-link href="card" type="info">Card 卡片</el-link></div>
+        <div><el-link href="carousel" type="info">Carousel 走马灯</el-link></div>
+        <div><el-link href="collapse" type="info">Collapse 折叠面板</el-link></div>
+        <div><el-link href="timeline" type="info">Timeline 时间线</el-link></div>
+        <div><el-link href="divider" type="info"> Divider 分割线</el-link></div>
+        <div><el-link href="calendar" type="info">Calendar 日历</el-link></div>
+        <div><el-link href="image1" type="info"> Image 图片</el-link></div>
+        <div><el-link href="backtop" type="info">Backtop 回到顶部</el-link></div>
+        <div><el-link href="infiniteScroll " type="info">InfiniteScroll 无限滚动</el-link></div>
+        <div><el-link href="drawer" type="info">Drawer 抽屉</el-link></div>
+
       </el-col>
-    </el-row>
+    </el-row>c
   </div>
 </template>
 

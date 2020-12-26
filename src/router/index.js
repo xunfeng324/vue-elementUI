@@ -145,6 +145,70 @@ export default new Router({
       path: '/pageHeader',
       name: 'pageHeader',
       component: (resolve) => require(['../view/study-elementui/31-navigation-pageHeader'], resolve)
+    }, {
+      path: '/dropdown',
+      name: 'dropdown',
+      component: (resolve) => require(['../view/study-elementui/32-navigation-dropdown'], resolve)
+    }, {
+      path: '/steps',
+      name: 'steps',
+      component: (resolve) => require(['../view/study-elementui/33-navigation-steps'], resolve)
+    }, {
+      path: '/dialog',
+      name: 'dialog',
+      component: (resolve) => require(['../view/study-elementui/34-other-dialog'], resolve)
+    }, {
+      path: '/tooltip',
+      name: 'tooltip',
+      component: (resolve) => require(['../view/study-elementui/35-other-tooltip'], resolve)
+    }, {
+      path: '/popover',
+      name: 'popover',
+      component: (resolve) => require(['../view/study-elementui/36-other-popover'], resolve)
+    }, {
+      path: '/popconfirm',
+      name: 'popconfirm',
+      component: (resolve) => require(['../view/study-elementui/37-other-popconfirm'], resolve)
+    }, {
+      path: '/card',
+      name: 'card',
+      component: (resolve) => require(['../view/study-elementui/38-other-card'], resolve)
+    }, {
+      path: '/carousel',
+      name: 'carousel',
+      component: (resolve) => require(['../view/study-elementui/39-other-carousel'], resolve)
+    }, {
+      path: '/collapse',
+      name: 'collapse',
+      component: (resolve) => require(['../view/study-elementui/40-other-collapse'], resolve)
+    }, {
+      path: '/timeline',
+      name: 'timeline',
+      component: (resolve) => require(['../view/study-elementui/41-other-timeline'], resolve)
+    }, {
+      path: '/divider',
+      name: 'divider',
+      component: (resolve) => require(['../view/study-elementui/42-other-divider'], resolve)
+    }, {
+      path: '/calendar',
+      name: 'calendar',
+      component: (resolve) => require(['../view/study-elementui/43-other-calendar'], resolve)
+    }, {
+      path: '/image1',
+      name: 'image1',
+      component: (resolve) => require(['../view/study-elementui/44-other-image1'], resolve)
+    }, {
+      path: '/backtop',
+      name: 'backtop',
+      component: (resolve) => require(['../view/study-elementui/45-other-backtop'], resolve)
+    }, {
+      path: '/infiniteScroll',
+      name: 'infiniteScroll',
+      component: (resolve) => require(['../view/study-elementui/46-other-infiniteScroll'], resolve)
+    }, {
+      path: '/drawer',
+      name: 'drawer',
+      component: (resolve) => require(['../view/study-elementui/47-other-drawer'], resolve)
     }
   ]
 })

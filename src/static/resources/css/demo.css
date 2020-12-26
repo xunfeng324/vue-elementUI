@@ -1,1 +1,45 @@
-h4 {color: #409EFF;}h5{color: #67C23A;}h4 small {color: #F56C6C;}p {font-size: 14px;}.block{margin-bottom: 10px;}.formClass{border: 1px red solid;padding: 10px 5px;}.el-boder{border: 1px red solid;}.tag-group{margin: 10px;}.tag-group-body{margin: 2px;}.el-progress-padding{margin: 10px 5px;}.el-avatar-inline{display: inline;margin: 10px;}
+h4 {
+  color: #409EFF;
+}
+
+h5 {
+  color: #67C23A;
+}
+
+h4 small {
+  color: #F56C6C;
+}
+
+p {
+  font-size: 14px;
+}
+
+.block {
+  margin-bottom: 10px;
+}
+
+.formClass {
+  border: 1px red solid;
+  padding: 10px 5px;
+}
+
+.el-boder {
+  border: 1px red solid;
+}
+
+.tag-group {
+  margin: 10px;
+}
+
+.tag-group-body {
+  margin: 2px;
+}
+
+.el-progress-padding {
+  margin: 10px 5px;
+}
+
+.el-avatar-inline {
+  display: inline;
+  margin: 10px;
+}
