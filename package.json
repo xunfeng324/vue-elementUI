@@ -10,14 +10,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "element-ui": "^2.14.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "qs": "^6.9.4",
     "sass": "^1.30.0",
     "vue": "^2.5.2",
-    "vue-axios": "^3.2.0"
+    "vue-axios": "^3.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

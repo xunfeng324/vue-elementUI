@@ -55,6 +55,7 @@
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item><a href="index">主页</a></el-dropdown-item>
             <el-dropdown-item><a href="login">登录</a></el-dropdown-item>
+            <el-dropdown-item><a href="axios">axios测试</a></el-dropdown-item>
             <el-dropdown-item>删除</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>

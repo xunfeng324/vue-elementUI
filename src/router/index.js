@@ -18,6 +18,10 @@ export default new Router({
       name: 'login',
       component: (resolve) => require(['../view/login'], resolve)
     }, {
+      path: '/axios',
+      name: 'axios',
+      component: (resolve) => require(['../view/demo/axios'], resolve)
+    }, {
       path: '/layout',
       name: 'layout',
       component: (resolve) => require(['../view/study-elementui/01-layout'], resolve)

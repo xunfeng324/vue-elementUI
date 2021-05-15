@@ -8,10 +8,12 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import less from 'less'
 
-Vue.use(VueAxios,axios,less);
+//Vue注册使用ui等组件
+Vue.use(ElementUI,VueAxios,axios,less);
+Vue.config.productionTip = false;
+//很多第三方模块不同的是，axios不能使用use方法
+Vue.prototype.$axios = axios;
 
-Vue.config.productionTip = false
-Vue.use(ElementUI)
 new Vue({
   el: '#app',
   components: {App},
