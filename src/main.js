@@ -11,7 +11,7 @@ import less from 'less'
 //Vue注册使用ui等组件
 Vue.use(ElementUI,VueAxios,axios,less);
 Vue.config.productionTip = false;
-//很多第三方模块不同的是，axios不能使用use方法
+//与很多第三方模块不同的是，axios不能使用use方法
 Vue.prototype.$axios = axios;
 
 new Vue({
